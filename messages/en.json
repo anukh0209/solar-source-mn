@@ -3,20 +3,98 @@
     "home": "Home",
     "about": "About",
     "services": "Services",
+    "products": "Products",
     "pricing": "Pricing",
     "team": "Team",
     "faq": "FAQ",
-    "menu": "Menu",
-    "portfolio": "Portfolio"
+    "portfolio": "Portfolio",
+    "contact": "Contact"
   },
   "hero": {
-    "title": "Solar Energy - The Future Source",
-    "subtitle": "Eco-friendly, cost-effective solar energy solutions",
-    "cta": "View Services",
+    "title": "Mongolia's Solar Energy Solutions",
+    "subtitle": "With 260-280 sunny days per year, solar energy is Mongolia's most reliable and cost-effective power source. We offer professional consultation, installation, and maintenance services.",
+    "cta": "Get Free Consultation",
     "learnMore": "Learn More"
+  },
+  "stats": {
+    "installations": "Completed Installations",
+    "capacity": "Total Installed Capacity",
+    "clients": "Satisfied Clients",
+    "experience": "Years of Experience"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Leading Mongolia's Solar Energy Sector",
+    "description": "Founded in 2018, Solar Source MN is a leading solar energy technology company in Mongolia. We supply international standard solar panels, inverters, and battery systems, providing professional installation and maintenance services.",
+    "mission": "Our Mission",
+    "missionText": "To support Mongolia's sustainable development with coal-free, clean energy",
+    "vision": "Our Vision",
+    "visionText": "To install solar energy systems in 50% of Mongolian households by 2028"
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Comprehensive Solar Energy Solutions",
+    "consulting": "Free Consultation",
+    "consultingDesc": "System sizing and ROI analysis tailored to your needs",
+    "installation": "Installation",
+    "installationDesc": "Professional on-site installation with warranty",
+    "maintenance": "Maintenance",
+    "maintenanceDesc": "Twice yearly inspections, 24/7 online monitoring",
+    "financing": "Flexible Financing",
+    "financingDesc": "Discounted loans and extended payment terms"
+  },
+  "products": {
+    "title": "Products",
+    "subtitle": "High-quality international standard products",
+    "panels": "Solar Panels",
+    "inverters": "Inverters",
+    "batteries": "Batteries",
+    "accessories": "Accessories"
+  },
+  "pricing": {
+    "title": "Pricing Plans",
+    "subtitle": "Various packages to suit your needs",
+    "home": "Residential",
+    "business": "Business",
+    "industrial": "Industrial",
+    "month": "month",
+    "popular": "Most Popular",
+    "select": "Select"
+  },
+  "team": {
+    "title": "Our Team",
+    "subtitle": "Professional engineers and technical specialists"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Common questions about solar energy"
+  },
+  "portfolio": {
+    "title": "Completed Projects",
+    "subtitle": "Our featured projects"
+  },
+  "testimonials": {
+    "title": "Client Testimonials",
+    "subtitle": "What our customers are saying"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get information about solar energy solutions",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Submit",
+    "address": "Ulaanbaatar, Sukhbaatar district, Ikh Mongol street 15",
+    "workingHours": "Mon - Fri: 09:00 - 18:00"
   },
   "footer": {
     "rights": "All rights reserved",
-    "company": "Solar Source MN"
+    "company": "Solar Source MN",
+    "description": "Leading Mongolia's solar energy sector",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "products": "Products",
+    "contact": "Contact"
   }
 }
