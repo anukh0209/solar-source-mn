@@ -27,8 +27,7 @@ export default function Header({ locale }: { locale: string }) {
           <div className="w-8 h-8 rounded-lg bg-forest-600 flex items-center justify-center">
             <Sun className="w-5 h-5 text-white" />
           </div>
-          <span className="text-xl font-bold text-foreground">Solar Source</span>
-          <span className="hidden sm:inline text-xs px-1.5 py-0.5 rounded bg-forest-100 text-forest-700 font-medium">MN</span>
+          <span className="text-xl font-bold text-foreground">MMS Solar Energy</span>
         </Link>
 
         <nav className="hidden lg:flex items-center gap-1">

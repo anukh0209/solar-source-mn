@@ -19,9 +19,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Solar Source MN - Нарны энергийн шийдлүүд",
-  description: "Байгальд ээлтэй, хэмнэлттэй нарны энергийн шийдлүүд",
-  metadataBase: new URL("https://solar.source.mn"),
+  title: "MMS Solar Energy - Нарны энергийн шийдлүүд",
+  description: "Монголын нарны энергийн салбарын манлайлагч - MMS Solar Energy",
+  metadataBase: new URL("https://www.source.mn"),
 };
 
 export function generateStaticParams() {

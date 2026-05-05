@@ -15,12 +15,12 @@ export default function Footer({ locale }: { locale: string }) {
               <div className="w-8 h-8 rounded-lg bg-forest-600 flex items-center justify-center">
                 <Sun className="w-5 h-5 text-white" />
               </div>
-              <span className="text-lg font-bold">{t("company")}</span>
+              <span className="text-lg font-bold">MMS Solar Energy</span>
             </div>
             <p className="text-forest-300 text-sm leading-relaxed">{t("description")}</p>
             <div className="flex items-center gap-2 text-sm text-forest-300">
               <MapPin className="w-4 h-4" />
-              <span>Улаанбаатар, Сүхбаатар дүүрэг</span>
+              <span>Хан-Уул дүүрэг, 8-р хороо, Архивчдын гудамж 512, MMS Green building</span>
             </div>
           </div>
 
@@ -64,15 +64,15 @@ export default function Footer({ locale }: { locale: string }) {
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-sm text-forest-300">
                 <Phone className="w-4 h-4" />
-                <span>+976 9911-2233</span>
+                <span>+976 7711-1999</span>
               </li>
               <li className="flex items-center gap-2 text-sm text-forest-300">
                 <Mail className="w-4 h-4" />
-                <span>info@solarsource.mn</span>
+                <span>solar@source.mn</span>
               </li>
               <li className="flex items-center gap-2 text-sm text-forest-300">
                 <MapPin className="w-4 h-4" />
-                <span>Их Монгол гудамж 15</span>
+                <span>MMS Green building, Архивчдын гудамж 512</span>
               </li>
             </ul>
           </div>

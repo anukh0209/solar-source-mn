@@ -39,8 +39,8 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h3 className="font-semibold mb-1">Утас</h3>
-                  <p className="text-muted-foreground">+976 9911-2233</p>
-                  <p className="text-muted-foreground">+976 7711-2233</p>
+                  <p className="text-muted-foreground">+976 7711-1999</p>
+                  <p className="text-muted-foreground">+976 9911-1999</p>
                 </div>
               </div>
 
@@ -50,8 +50,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h3 className="font-semibold mb-1">И-мэйл</h3>
-                  <p className="text-muted-foreground">info@solarsource.mn</p>
-                  <p className="text-muted-foreground">sales@solarsource.mn</p>
+                  <p className="text-muted-foreground">solar@source.mn</p>
                 </div>
               </div>
 
