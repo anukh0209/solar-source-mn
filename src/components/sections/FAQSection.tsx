@@ -1,36 +1,20 @@
 import { FadeIn } from "@/components/motion/FadeIn";
 import { getPageBySlug } from "@/lib/mock";
-
-const faqs = [
-  {
-    question: "Нарны самбар хэр удаан ажилладаг вэ?",
-    answer: "Нарны самбар 25-30 жилийн хугацаанд ажиллах боломжтой. Бид 25 жилийн баталгаа өгдөг.",
-  },
-  {
-    question: "Өвөлдөө хэр ажилладаг вэ?",
-    answer: "Тиймээ, нарны самбар өвөлдөө ч ажиллана. Цас самбарыг бүрхвэл үр ашиг буурч болно.",
-  },
-  {
-    question: "Хэр их зай эзэлдэг вэ?",
-    answer: "1 кВт системд ойролцоогоор 6-8 м2 талбай хэрэгтэй. Гэр ахуйн системд 20-40 м2 зүйтэй.",
-  },
-  {
-    question: "Төсөв хэр их гарах вэ?",
-    answer: "Гэр ахуйн систем 2-5 сая төгрөгийн хооронд, бизнесийн систем 5-20 сая төгрөгийн хооронд байна.",
-  },
-];
+import { useTranslations } from "next-intl";
 
 export default function FAQSection() {
   const page = getPageBySlug("faq");
+  const t = useTranslations("faq");
+  const faqs = t.raw("items") as Array<{ question: string; answer: string }>;
 
   return (
     <section className="w-full py-16 md:py-24">
       <div className="container px-4 md:px-6">
         <FadeIn>
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">{page?.name || "Түгээмэл асуулт"}</h2>
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">{page?.name || t("title")}</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              {page?.description || "Түгээмэл асуултууд"}
+              {page?.description || t("subtitle")}
             </p>
           </div>
         </FadeIn>

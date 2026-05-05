@@ -2,32 +2,14 @@ import { FadeIn } from "@/components/motion/FadeIn";
 import { useTranslations } from "next-intl";
 import { Star, Quote } from "lucide-react";
 
-const testimonials = [
-  {
-    name: "Батбаяр",
-    role: "Гэр ахуйн хэрэглэгч",
-    location: "Улаанбаатар",
-    rating: 5,
-    text: "5 кВт систем суурилуулсанаас хойш цахилгааны төлбөр 80% буурсан. Багийн ажил мэргэжлийн түвшинд, баталгаатай. Маш их баярлалаа!",
-  },
-  {
-    name: "Ганболд",
-    role: "ЖДҮ эзэн",
-    location: "Эрдэнэт",
-    rating: 5,
-    text: "Үйлдвэрт 20 кВт систем суурилуулсан. 1.5 жилийн дараа хөрөнгө оруулалт маань эргэж ирсэн. Одоо жилд 15 сая төгрөг хэмнэж байна.",
-  },
-  {
-    name: "Сүхбаатар",
-    role: "Засаг дарга",
-    location: "Дархан",
-    rating: 5,
-    text: "Сургууль, эмнэлэгт нарны энергийн систем суурилуулах төслийг амжилттай хэрэгжүүлсэн. Иргэд маш их дэмжиж байна.",
-  },
-];
-
 export default function TestimonialsSection() {
   const t = useTranslations("testimonials");
+  const testimonials = t.raw("items") as Array<{
+    name: string;
+    role: string;
+    location: string;
+    text: string;
+  }>;
 
   return (
     <section className="w-full py-16 md:py-24 bg-forest-900 text-white">
@@ -49,7 +31,7 @@ export default function TestimonialsSection() {
                 <Quote className="w-8 h-8 text-forest-400 mb-4" />
                 
                 <div className="flex gap-1 mb-4">
-                  {Array.from({ length: testimonial.rating }).map((_, i) => (
+                  {Array.from({ length: 5 }).map((_, i) => (
                     <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
                   ))}
                 </div>

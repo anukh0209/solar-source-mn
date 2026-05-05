@@ -71,11 +71,11 @@ export default function ContactSection() {
               <div className="grid sm:grid-cols-2 gap-4">
                 <div className="space-y-2">
                   <label className="text-sm font-medium">{t("name")}</label>
-                  <Input placeholder="Таны нэр" className="rounded-xl" />
+                  <Input placeholder={t("namePlaceholder")} className="rounded-xl" />
                 </div>
                 <div className="space-y-2">
                   <label className="text-sm font-medium">{t("phone")}</label>
-                  <Input placeholder="+976" className="rounded-xl" />
+                  <Input placeholder={t("phonePlaceholder")} className="rounded-xl" />
                 </div>
               </div>
 
@@ -88,7 +88,7 @@ export default function ContactSection() {
                 <label className="text-sm font-medium">{t("message")}</label>
                 <textarea 
                   className="w-full min-h-[120px] px-3 py-2 rounded-xl border border-input bg-background text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
-                  placeholder="Таны зурвас..."
+                  placeholder={t("messagePlaceholder")}
                 />
               </div>
 

@@ -54,7 +54,13 @@
     "maintenance": "维护",
     "maintenanceDesc": "每年两次检查，24/7在线监控",
     "financing": "灵活融资",
-    "financingDesc": "优惠贷款，6-36个月分期付款"
+    "financingDesc": "优惠贷款，6-36个月分期付款",
+    "features": [
+      ["现场勘察", "系统计算", "投资回报率分析", "预算编制"],
+      ["专业安装", "电气连接", "系统测试", "认证颁发"],
+      ["每年两次检查", "24/7监控", "紧急维修", "培训"],
+      ["优惠贷款", "6-36个月分期", "政府支持", "灵活条款"]
+    ]
   },
   "products": {
     "title": "产品",
@@ -74,20 +80,83 @@
     "industrial": "工业",
     "month": "月",
     "popular": "最受欢迎",
-    "select": "选择"
+    "select": "选择",
+    "plans": [
+      {
+        "name": "home",
+        "description": "家庭3-5千瓦系统",
+        "features": ["8-10块太阳能板(550W)", "5千瓦混合逆变器", "10千瓦时电池(BYD/Pylontech)", "MPPT控制器", "全套安装", "5年保修", "24/7监控"]
+      },
+      {
+        "name": "business",
+        "description": "商业10-15千瓦系统",
+        "features": ["18-24块太阳能板(550W)", "12千瓦混合逆变器", "20千瓦时电池系统", "三相连接", "全套安装", "5年保修", "24/7支持+维护"]
+      },
+      {
+        "name": "industrial",
+        "description": "工业50+千瓦系统",
+        "features": ["90+块太阳能板(550W+)", "50千瓦并网逆变器", "监控系统", "三相连接", "全套安装", "10年保修", "优先支持"]
+      }
+    ]
   },
   "faq": {
     "title": "常见问题",
-    "subtitle": "关于太阳能的常见问题"
+    "subtitle": "关于太阳能的常见问题",
+    "items": [
+      {
+        "question": "太阳能电池板能用多久？",
+        "answer": "太阳能电池板可以使用25-30年。我们提供25年保修。"
+      },
+      {
+        "question": "冬天能用吗？",
+        "answer": "是的，太阳能电池板冬天也能工作。但如果积雪覆盖面板，效率可能会降低。"
+      },
+      {
+        "question": "需要多大空间？",
+        "answer": "每1千瓦系统大约需要6-8平方米。家庭系统通常需要20-40平方米。"
+      },
+      {
+        "question": "预算多少？",
+        "answer": "家庭系统约200-500万图格里克，商业系统约500-2000万图格里克。"
+      }
+    ]
   },
   "portfolio": {
     "title": "已完成项目",
-    "subtitle": "我们的重点项目"
+    "subtitle": "我们的重点项目",
+    "projects": [
+      { "title": "家庭系统", "description": "家庭太阳能系统", "location": "乌兰巴托", "capacity": "5千瓦", "year": "2024" },
+      { "title": "办公楼", "description": "办公太阳能系统", "location": "额尔登特", "capacity": "20千瓦", "year": "2024" },
+      { "title": "工业项目", "description": "工业规模太阳能系统", "location": "达尔汗", "capacity": "100千瓦", "year": "2023" },
+      { "title": "学校", "description": "教育机构太阳能系统", "location": "乔伊尔", "capacity": "15千瓦", "year": "2023" },
+      { "title": "医院", "description": "医疗机构太阳能系统", "location": "巴彦洪戈尔", "capacity": "30千瓦", "year": "2023" },
+      { "title": "酒店", "description": "酒店太阳能系统", "location": "哈尔和林", "capacity": "50千瓦", "year": "2022" }
+    ]
   },
   "testimonials": {
     "title": "客户评价",
     "subtitle": "我们的客户怎么说",
-    "badge": "客户评价"
+    "badge": "客户评价",
+    "items": [
+      {
+        "name": "巴特巴雅尔",
+        "role": "家庭用户",
+        "location": "乌兰巴托",
+        "text": "安装5千瓦系统后，电费下降了80%。团队工作专业，有保障。非常感谢！"
+      },
+      {
+        "name": "甘博尔德",
+        "role": "企业主",
+        "location": "额尔登特",
+        "text": "在工厂安装了20千瓦系统。1.5年后收回了投资。现在每年节省1500万图格里克。"
+      },
+      {
+        "name": "苏赫巴托尔",
+        "role": "省长",
+        "location": "达尔汗",
+        "text": "成功在学校和医院实施了太阳能系统。市民非常支持。"
+      }
+    ]
   },
   "contact": {
     "title": "联系我们",
@@ -103,7 +172,11 @@
     "message": "留言",
     "submit": "提交",
     "address": "乌兰巴托市汗乌勒区第8区档案员街512号MMS Green大楼",
-    "workingHours": "周一至周五：09:00 - 18:00"
+    "workingHours": "周一至周五：09:00 - 18:00",
+    "namePlaceholder": "您的姓名",
+    "phonePlaceholder": "+976",
+    "emailPlaceholder": "example@email.com",
+    "messagePlaceholder": "您的留言..."
   },
   "auth": {
     "login": "登录",
@@ -117,7 +190,18 @@
     "submit": "提交",
     "alreadyHaveAccount": "已有账户？",
     "dontHaveAccount": "没有账户？",
-    "forgotPassword": "忘记密码？"
+    "forgotPassword": "忘记密码？",
+    "welcomeBack": "欢迎回到 MMS Solar Energy",
+    "joinUs": "加入 MMS Solar Energy 大家庭",
+    "loginButton": "登录",
+    "registerButton": "注册",
+    "emailPlaceholder": "your@email.com",
+    "passwordPlaceholder": "••••••••",
+    "namePlaceholder": "您的姓名",
+    "phonePlaceholder": "+976",
+    "confirmPasswordPlaceholder": "••••••••",
+    "passwordMismatch": "密码不匹配！",
+    "featureComingSoon": "此功能即将推出！"
   },
   "footer": {
     "rights": "版权所有",
