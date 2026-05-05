@@ -7,6 +7,7 @@ import { Menu, X, Sun, User } from "lucide-react";
 
 export default function Header({ locale }: { locale: string }) {
   const t = useTranslations("nav");
+  const authT = useTranslations("auth");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const menuItems = [
@@ -49,7 +50,7 @@ export default function Header({ locale }: { locale: string }) {
             className="hidden md:flex items-center gap-2 px-3 py-2 text-sm font-medium text-foreground/80 hover:text-forest-600 rounded-lg hover:bg-forest-50"
           >
             <User className="w-4 h-4" />
-            <span>登录</span>
+            <span>{authT("login")}</span>
           </Link>
           
           <button
@@ -80,7 +81,7 @@ export default function Header({ locale }: { locale: string }) {
               className="px-3 py-2 text-sm font-medium text-foreground/80 hover:text-forest-600 rounded-lg hover:bg-forest-50"
               onClick={() => setMobileMenuOpen(false)}
             >
-              登录
+              {authT("login")}
             </Link>
           </nav>
         </div>
