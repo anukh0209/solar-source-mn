@@ -13,7 +13,7 @@ export default function ContactSection() {
         <FadeIn>
           <div className="text-center mb-12">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-sm font-medium mb-4">
-              <span>Холбоо барих</span>
+              <span>{t("badge")}</span>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">{t("title")}</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto text-lg">{t("subtitle")}</p>
@@ -28,7 +28,7 @@ export default function ContactSection() {
                   <MapPin className="w-5 h-5 text-forest-600" />
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-1">Хаяг</h3>
+                  <h3 className="font-semibold mb-1">{t("addressLabel")}</h3>
                   <p className="text-muted-foreground">{t("address")}</p>
                 </div>
               </div>
@@ -38,7 +38,7 @@ export default function ContactSection() {
                   <Phone className="w-5 h-5 text-forest-600" />
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-1">Утас</h3>
+                  <h3 className="font-semibold mb-1">{t("phoneLabel")}</h3>
                   <p className="text-muted-foreground">+976 7711-1999</p>
                   <p className="text-muted-foreground">+976 9911-1999</p>
                 </div>
@@ -49,7 +49,7 @@ export default function ContactSection() {
                   <Mail className="w-5 h-5 text-forest-600" />
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-1">И-мэйл</h3>
+                  <h3 className="font-semibold mb-1">{t("emailLabel")}</h3>
                   <p className="text-muted-foreground">solar@source.mn</p>
                 </div>
               </div>
@@ -59,7 +59,7 @@ export default function ContactSection() {
                   <Clock className="w-5 h-5 text-forest-600" />
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-1">Ажлын цаг</h3>
+                  <h3 className="font-semibold mb-1">{t("workingHoursLabel")}</h3>
                   <p className="text-muted-foreground">{t("workingHours")}</p>
                 </div>
               </div>

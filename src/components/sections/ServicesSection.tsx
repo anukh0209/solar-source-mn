@@ -38,7 +38,7 @@ export default function ServicesSection() {
         <FadeIn>
           <div className="text-center mb-16">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-sm font-medium mb-4">
-              <span>Мэргэжлийн үйлчилгээ</span>
+              <span>{t("badge")}</span>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">{t("title")}</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto text-lg">{t("subtitle")}</p>

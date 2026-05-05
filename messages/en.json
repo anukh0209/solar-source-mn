@@ -13,6 +13,7 @@
   "hero": {
     "title": "MMS Solar Energy - Mongolia's Solar Energy Solutions",
     "subtitle": "With 260-280 sunny days per year, solar energy is Mongolia's most reliable and cost-effective power source. We offer professional consultation, installation, and maintenance services.",
+    "badge": "Mongolia has 260-280 sunny days",
     "cta": "Get Free Consultation",
     "learnMore": "Learn More"
   },
@@ -20,20 +21,33 @@
     "installations": "Completed Installations",
     "capacity": "Total Installed Capacity",
     "clients": "Satisfied Clients",
-    "experience": "Years of Experience"
+    "experience": "Years of Experience",
+    "mw": "MW",
+    "years": "years"
   },
   "about": {
     "title": "About Us",
     "subtitle": "Leading Mongolia's Solar Energy Sector",
     "description": "MMS Solar Energy is a leading solar energy technology company in Mongolia. We supply international standard solar panels, inverters, and battery systems, providing professional installation and maintenance services.",
+    "badge": "Since 2018",
+    "whyChooseUs": "Why Choose Us Now",
     "mission": "Our Mission",
     "missionText": "To support Mongolia's sustainable development with coal-free, clean energy",
     "vision": "Our Vision",
-    "visionText": "To install solar energy systems in 50% of Mongolian households by 2028"
+    "visionText": "To install solar energy systems in 50% of Mongolian households by 2028",
+    "values": [
+      "International ISO 9001 quality standard",
+      "Official distributor of Longi, JA Solar, Growatt",
+      "5-year full warranty",
+      "24/7 online monitoring system",
+      "Certified engineering team",
+      "100+ projects for government and private sector"
+    ]
   },
   "services": {
     "title": "Services",
     "subtitle": "Comprehensive Solar Energy Solutions",
+    "badge": "Professional Services",
     "consulting": "Free Consultation",
     "consultingDesc": "System sizing and ROI analysis tailored to your needs",
     "installation": "Installation",
@@ -46,6 +60,7 @@
   "products": {
     "title": "Products",
     "subtitle": "High-quality international standard products",
+    "badge": "ISO Certified",
     "panels": "Solar Panels",
     "inverters": "Inverters",
     "batteries": "Batteries",
@@ -54,6 +69,7 @@
   "pricing": {
     "title": "Pricing Plans",
     "subtitle": "Various packages to suit your needs",
+    "badge": "Affordable Prices",
     "home": "Residential",
     "business": "Business",
     "industrial": "Industrial",
@@ -71,11 +87,17 @@
   },
   "testimonials": {
     "title": "Client Testimonials",
-    "subtitle": "What our customers are saying"
+    "subtitle": "What our customers are saying",
+    "badge": "Client Testimonials"
   },
   "contact": {
     "title": "Contact Us",
     "subtitle": "Get information about solar energy solutions",
+    "badge": "Contact Us",
+    "addressLabel": "Address",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "workingHoursLabel": "Working Hours",
     "name": "Name",
     "phone": "Phone",
     "email": "Email",

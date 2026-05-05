@@ -35,7 +35,7 @@ export default function TestimonialsSection() {
         <FadeIn>
           <div className="text-center mb-12">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-forest-800 text-forest-300 text-sm font-medium mb-4">
-              <span>Харилцагчидийн сэтгэгдэл</span>
+              <span>{t("badge")}</span>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">{t("title")}</h2>
             <p className="text-forest-300 max-w-2xl mx-auto text-lg">{t("subtitle")}</p>

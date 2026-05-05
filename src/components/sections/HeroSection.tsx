@@ -15,7 +15,7 @@ export default function HeroSection() {
           <FadeIn delay={0}>
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-forest-100 text-forest-700 text-sm font-medium mb-4">
               <Sun className="w-4 h-4" />
-              <span>Монголд 260-280 нартай өдөр</span>
+              <span>{t("badge")}</span>
             </div>
           </FadeIn>
           
