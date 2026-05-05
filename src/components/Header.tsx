@@ -1,10 +1,9 @@
 "use client";
 
 import { Link } from "@/i18n/routing";
-import { getHeaderMenu } from "@/lib/mock";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
-import { Menu, X, Sun } from "lucide-react";
+import { Menu, X, Sun, User } from "lucide-react";
 
 export default function Header({ locale }: { locale: string }) {
   const t = useTranslations("nav");
@@ -45,6 +44,14 @@ export default function Header({ locale }: { locale: string }) {
         <div className="flex items-center gap-3">
           <LanguageSwitcher locale={locale} />
           
+          <Link 
+            href="/auth/login" 
+            className="hidden md:flex items-center gap-2 px-3 py-2 text-sm font-medium text-foreground/80 hover:text-forest-600 rounded-lg hover:bg-forest-50"
+          >
+            <User className="w-4 h-4" />
+            <span>登录</span>
+          </Link>
+          
           <button
             className="lg:hidden p-2 rounded-lg hover:bg-muted"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -68,6 +75,13 @@ export default function Header({ locale }: { locale: string }) {
                 {item.label}
               </Link>
             ))}
+            <Link
+              href="/auth/login"
+              className="px-3 py-2 text-sm font-medium text-foreground/80 hover:text-forest-600 rounded-lg hover:bg-forest-50"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              登录
+            </Link>
           </nav>
         </div>
       )}
@@ -91,6 +105,13 @@ function LanguageSwitcher({ locale }: { locale: string }) {
         className={`px-2.5 py-1 rounded-md font-medium transition-all ${locale === "en" ? "bg-white text-forest-700 shadow-sm" : "text-muted-foreground hover:text-foreground"}`}
       >
         EN
+      </Link>
+      <Link
+        href="/"
+        locale="zh"
+        className={`px-2.5 py-1 rounded-md font-medium transition-all ${locale === "zh" ? "bg-white text-forest-700 shadow-sm" : "text-muted-foreground hover:text-foreground"}`}
+      >
+        中
       </Link>
     </div>
   );

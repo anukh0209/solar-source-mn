@@ -61,10 +61,6 @@
     "popular": "Most Popular",
     "select": "Select"
   },
-  "team": {
-    "title": "Our Team",
-    "subtitle": "Professional engineers and technical specialists"
-  },
   "faq": {
     "title": "Frequently Asked Questions",
     "subtitle": "Common questions about solar energy"
@@ -87,6 +83,20 @@
     "submit": "Submit",
     "address": "Ulaanbaatar, Khan-Uul district, 8th khoroo, Archivists street 512, MMS Green building",
     "workingHours": "Mon - Fri: 09:00 - 18:00"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "name": "Name",
+    "phone": "Phone",
+    "submit": "Submit",
+    "alreadyHaveAccount": "Already have an account?",
+    "dontHaveAccount": "Don't have an account?",
+    "forgotPassword": "Forgot password?"
   },
   "footer": {
     "rights": "All rights reserved",

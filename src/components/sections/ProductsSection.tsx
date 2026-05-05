@@ -9,10 +9,10 @@ const productCategories = [
     icon: Sun,
     title: "panels",
     items: [
-      { name: "Longi Hi-MO 6", spec: "550W | 21.7% бүтээмж", price: "980,000₮", badge: "Хамгийн түгээмэл" },
-      { name: "JA Solar DeepBlue", spec: "540W | 21.5% бүтээмж", price: "950,000₮", badge: null },
-      { name: "Trina Solar Vertex", spec: "600W | 22.0% бүтээмж", price: "1,150,000₮", badge: "Өндөр хүчин чадал" },
-      { name: "Jinko Solar Tiger", spec: "470W | 21.2% бүтээмж", price: "820,000₮", badge: null },
+      { name: "Longi Hi-MO 6", spec: "550W | 21.7% бүтээмж", price: "980,000₮", badge: "Хамгийн түгээмэл", image: "🌞" },
+      { name: "JA Solar DeepBlue", spec: "540W | 21.5% бүтээмж", price: "950,000₮", badge: null, image: "☀️" },
+      { name: "Trina Solar Vertex", spec: "600W | 22.0% бүтээмж", price: "1,150,000₮", badge: "Өндөр хүчин чадал", image: "🔆" },
+      { name: "Jinko Solar Tiger", spec: "470W | 21.2% бүтээмж", price: "820,000₮", badge: null, image: "🌅" },
     ],
   },
   {
@@ -20,10 +20,10 @@ const productCategories = [
     icon: Zap,
     title: "inverters",
     items: [
-      { name: "Growatt SPF 5000", spec: "5kW | Гибрид | MPPT", price: "2,800,000₮", badge: "Гэрийн системд" },
-      { name: "Solis 10K", spec: "10kW | Гибрид | 2 MPPT", price: "4,500,000₮", badge: null },
-      { name: "Deye 12K-SD", spec: "12kW | 3 фаз | Гибрид", price: "6,200,000₮", badge: "Бизнесийн" },
-      { name: "Sungrow 25K", spec: "25kW | Холбогдох | 3 фаз", price: "9,800,000₮", badge: "Үйлдвэр" },
+      { name: "Growatt SPF 5000", spec: "5kW | Гибрид | MPPT", price: "2,800,000₮", badge: "Гэрийн системд", image: "⚡" },
+      { name: "Solis 10K", spec: "10kW | Гибрид | 2 MPPT", price: "4,500,000₮", badge: null, image: "🔌" },
+      { name: "Deye 12K-SD", spec: "12kW | 3 фаз | Гибрид", price: "6,200,000₮", badge: "Бизнесийн", image: "🔋" },
+      { name: "Sungrow 25K", spec: "25kW | Холбогдох | 3 фаз", price: "9,800,000₮", badge: "Үйлдвэр", image: "⚙️" },
     ],
   },
   {
@@ -31,10 +31,10 @@ const productCategories = [
     icon: Battery,
     title: "batteries",
     items: [
-      { name: "BYD B-Box Premium", spec: "10kWh | LiFePO4 | 6000 цикл", price: "8,500,000₮", badge: "Тэргүүлэгч" },
-      { name: "Pylontech US3000C", spec: "3.5kWh | LiFePO4 | 95% DoD", price: "3,200,000₮", badge: null },
-      { name: "Freedom Won Lite", spec: "10kWh | LiFePO4 | 10 жил", price: "7,800,000₮", badge: null },
-      { name: "Huawei LUNA2000", spec: "15kWh | Smart | Модульчлагдсан", price: "12,500,000₮", badge: "Ухаалаг" },
+      { name: "BYD B-Box Premium", spec: "10kWh | LiFePO4 | 6000 цикл", price: "8,500,000₮", badge: "Тэргүүлэгч", image: "🔋" },
+      { name: "Pylontech US3000C", spec: "3.5kWh | LiFePO4 | 95% DoD", price: "3,200,000₮", badge: null, image: "🔋" },
+      { name: "Freedom Won Lite", spec: "10kWh | LiFePO4 | 10 жил", price: "7,800,000₮", badge: null, image: "🔋" },
+      { name: "Huawei LUNA2000", spec: "15kWh | Smart | Модульчлагдсан", price: "12,500,000₮", badge: "Ухаалаг", image: "🔋" },
     ],
   },
   {
@@ -42,10 +42,10 @@ const productCategories = [
     icon: Settings,
     title: "accessories",
     items: [
-      { name: "MPPT Controller 60A", spec: "60A | 12/24/48V | LCD", price: "650,000₮", badge: null },
-      { name: "Mounting System", spec: "Алюмин | Угсардаг | 4 самбар", price: "480,000₮", badge: null },
-      { name: "Solar Cable 4mm2", spec: "100м | TUV баталгаат | UV тэсвэртэй", price: "280,000₮", badge: null },
-      { name: "DC Breaker Box", spec: "1000V | 2 багц | IP65", price: "320,000₮", badge: null },
+      { name: "MPPT Controller 60A", spec: "60A | 12/24/48V | LCD", price: "650,000₮", badge: null, image: "🎛️" },
+      { name: "Mounting System", spec: "Алюмин | Угсардаг | 4 самбар", price: "480,000₮", badge: null, image: "🔧" },
+      { name: "Solar Cable 4mm2", spec: "100м | TUV баталгаат | UV тэсвэртэй", price: "280,000₮", badge: null, image: "🔌" },
+      { name: "DC Breaker Box", spec: "1000V | 2 багц | IP65", price: "320,000₮", badge: null, image: "📦" },
     ],
   },
 ];
@@ -82,7 +82,10 @@ export default function ProductsSection() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                   {category.items.map((item, index) => (
                     <FadeIn key={item.name} delay={index * 0.05}>
-                      <div className="p-5 rounded-xl bg-white border border-border/50 hover:border-forest-200 hover:shadow-md transition-all">
+                      <div className="group p-5 rounded-xl bg-white border border-border/50 hover:border-forest-200 hover:shadow-md transition-all overflow-hidden">
+                        <div className="relative w-full h-32 bg-gradient-to-br from-forest-100 to-forest-50 rounded-lg mb-4 flex items-center justify-center text-6xl group-hover:scale-105 transition-transform">
+                          {item.image}
+                        </div>
                         {item.badge && (
                           <div className="inline-block px-2 py-1 rounded-md bg-forest-100 text-forest-700 text-xs font-medium mb-3">
                             {item.badge}
