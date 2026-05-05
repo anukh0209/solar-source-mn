@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "pricing": "Pricing",
+    "team": "Team",
+    "faq": "FAQ",
+    "menu": "Menu",
+    "portfolio": "Portfolio"
+  },
+  "hero": {
+    "title": "Solar Energy - The Future Source",
+    "subtitle": "Eco-friendly, cost-effective solar energy solutions",
+    "cta": "View Services",
+    "learnMore": "Learn More"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "company": "Solar Source MN"
+  }
+}

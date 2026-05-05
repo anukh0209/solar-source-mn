@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "site": "solar-source-mn",
+    "approved_at": "2026-05-06T00:20:00Z",
+    "scenario": "2",
+    "dark_mode": true
+  },
+  "colors": {
+    "brand": {
+      "50": "#f0fdf4",
+      "100": "#dcfce7",
+      "500": "#22c55e",
+      "600": "#16a34a",
+      "900": "#14532d"
+    },
+    "semantic": {
+      "background": { "light": "#ffffff", "dark": "#0a0a0a" },
+      "surface": { "light": "#fafafa", "dark": "#171717" },
+      "surface_raised": { "light": "#ffffff", "dark": "#262626" },
+      "border": { "light": "#e5e5e5", "dark": "#404040" },
+      "text": { "light": "#171717", "dark": "#fafafa" },
+      "text_muted": { "light": "#737373", "dark": "#a3a3a3" },
+      "accent": { "light": "#22c55e", "dark": "#4ade80" }
+    }
+  },
+  "typography": {
+    "display_font": { "family": "Geist", "source": "google", "weights": [400, 500, 600, 700] },
+    "body_font": { "family": "Geist", "source": "google", "weights": [400, 500] },
+    "scale": {
+      "display": { "size": "clamp(2rem, 5vw, 3.5rem)", "weight": 700, "tracking": "-0.03em", "leading": 1.05 },
+      "h1": { "size": "clamp(1.75rem, 4vw, 2.5rem)", "weight": 700, "tracking": "-0.02em", "leading": 1.1 },
+      "h2": { "size": "clamp(1.25rem, 3vw, 1.75rem)", "weight": 600, "tracking": "-0.015em", "leading": 1.2 },
+      "body": { "size": "1rem", "weight": 400, "leading": 1.65 },
+      "caption": { "size": "0.75rem", "weight": 400 },
+      "label": { "size": "0.75rem", "weight": 600, "tracking": "0.08em", "transform": "uppercase" }
+    }
+  },
+  "spacing": {
+    "base": 4,
+    "scale": { "xs": "4px", "sm": "8px", "md": "16px", "lg": "24px", "xl": "40px", "2xl": "64px", "section": "clamp(3rem, 8vw, 6rem)" },
+    "container_max": "1280px",
+    "gutter": "clamp(1rem, 4vw, 2rem)"
+  },
+  "radius": { "sm": "4px", "md": "8px", "lg": "12px", "xl": "16px", "2xl": "24px", "pill": "9999px" },
+  "shadows": {
+    "card": "0 1px 3px oklch(0% 0 0 / 0.08), 0 4px 12px oklch(0% 0 0 / 0.06)",
+    "card_hover": "0 4px 16px oklch(0% 0 0 / 0.12)",
+    "elevated": "0 8px 32px oklch(0% 0 0 / 0.16)"
+  },
+  "animation": {
+    "duration": { "fast": "150ms", "normal": "250ms", "slow": "400ms" },
+    "easing": { "smooth": "cubic-bezier(0.4,0,0.2,1)", "spring": "cubic-bezier(0.34,1.56,0.64,1)" }
+  },
+  "components": {
+    "card": { "border_radius": "2xl", "shadow": "card", "image_ratio": "16/9", "hover": "translateY(-2px)" },
+    "button": { "border_radius": "md", "padding": "12px 20px", "font_weight": 600 },
+    "nav": { "height": "64px", "sticky": true, "blur": true }
+  }
+}
